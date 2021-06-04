@@ -8,7 +8,8 @@ Mensaje del commit
 
 
 2. How do you see the contents of what changed within each file from the git log?
-	R=
+	R= Vemos el contenido de los cambios dentro del archivo utilizando git log con la opcio -p -1, para ver el ultimo cambio hehco en el ultimo commit, 
+se puede colocar -2, -3, etc... para ver ademas del utlimo tambien el penutlimo y asi sucesivamente, tambien se puede usar git log -p archivo para ver todos los cambios dentro de ese archivo
 
 3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
 	R=
